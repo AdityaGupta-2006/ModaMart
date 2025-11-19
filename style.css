@@ -1,0 +1,41 @@
+.Navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #cf1355;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.outer{
+    border: 1px solid black;
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg, #fff7fa, #ffe4ee);
+   
+}
+
+img{ 
+    height: 60px;
+    width: 200px;
+}
+
+#box1{
+    position: relative;
+    right: 70px;
+}
+
+.content{
+    height: 2000px;
+}
